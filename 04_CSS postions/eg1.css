@@ -2,30 +2,30 @@
     border: 2px solid blue ;
     margin-bottom: 5px;
     padding: 10px;
-    background-color: darkgrey;
+    background-color: crimson;
 }
 
 .c2{
     border: 2px solid blue ;
     margin-bottom: 5px;
     padding: 10px;
-    background-color: coral;
+    background-color: cadetblue;
     position: relative;
     top: 220px;
 }
 
 .c3{
-    border: 2px solid chocolate ;
+    border: 2px solid blue ;
     margin-bottom: 5px;
     padding: 10px;
-    background-color: aquamarine;
+    background-color: cornflowerblue;
     position: absolute;
     top: 0px;
 }
 
 .c4{
-    border: 2px solid  ;
+    border: 2px solid blue ;
     margin-bottom: 5px;
     padding: 10px;
-    background-color: dimgray;
+    background-color: darksalmon;
 }
