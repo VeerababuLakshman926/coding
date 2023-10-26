@@ -1,0 +1,44 @@
+ /*section{
+            border: 2px solid blue;
+            padding: 5px;
+            display: flex;
+            flex: 1;
+            margin-bottom: 5px;
+        } */
+        /*If we use flex command for section individually, then there will be no overlapping columns border and section border when height command is used(using height command section border and column borders are overlapping*/
+        #id1, .c1{
+            border: 2px solid blue;
+            margin-bottom: 5px;
+            padding: 5px;
+            display: flex;
+            flex: 1;
+            margin-right: 5px;
+        }
+        .c1:nth-child(1){
+            flex: 2;
+        }
+
+        #id2{
+            border: 2px solid crimson;
+            display: flex;
+            margin-bottom: 5px;
+        }
+        .c2{
+            border: 2px solid crimson;
+            flex: 1;
+            margin: 5px;
+            height: 300px;
+            
+        }
+        #id3{
+            border: 2px solid green;
+            display: flex;
+            
+        }
+        .c3{
+            border: 2px solid green;
+            margin: 5px;
+            padding: 5px;
+            flex: 1;
+            height: 300px;
+        }
