@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*section{
+            border: 2px solid blue;
+            padding: 5px;
+            display: grid;
+            
+        }*/
+        
+        section, div{
+            border: 2px solid red;
+            padding: 10px;
+            margin: 5px;
+            display: grid;
+            grid-template-rows: 255px 255px;
+            /*grid-template-columns: 250px 250px 250px 250px 250px 250px;*/
+            /*grid-template-columns: 16.5% 16.5% 16.5% 16.5% 16.5% 16.5%;*/
+            /*grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;*/
+            grid-template-columns: repeat(6, 1fr);
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <div>one</div>
+        <div>Two</div>
+        <div>Three</div>
+        <div>Four</div>
+        <div>Five</div>
+        <div>Six</div>
+        <div>Seven</div>
+        <div>Eight</div>
+        <div>Nine</div>
+        <div>Ten</div>
+        <div>Eleven</div>
+        <div>Twelve</div>
+
+    </section>
+</body>
+</html>
