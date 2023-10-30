@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .s1, .c1{
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 5px;
+            display: flex;
+            height: 230px;
+        }
+
+        .c1{
+            flex: 1;
+            height: 200px;
+        }
+
+        .s2, .c2{
+            border: 2px solid blue;
+            padding: 10px;
+            margin: 5px;
+            display: grid;
+            grid-template-rows: 250px;
+            grid-template-columns: repeat(4,25%);
+        }
+
+        .s3, .c3{
+            border: 2px solid blue;
+            padding: 10px;
+            margin-bottom: 5px;
+            float: left;
+            
+        }
+        
+        .s3{
+            width: 100%;
+            box-sizing: border-box;
+            height: 250px;
+        }
+        
+        .c3{
+            box-sizing: border-box;
+            width: 24%;
+            height: 220px;
+            margin: 0.5%;
+            
+        }
+    </style>
+</head>
+<body>
+
+    <section class="s1">
+        <div class="c1">one</div>
+        <div class="c1">Two</div>
+        <div class="c1">Three</div>
+        <div class="c1">Four</div>
+    </section>
+
+    <section class="s2">
+        <div class="c2">one</div>
+        <div class="c2">Two</div>
+        <div class="c2">Three</div>
+        <div class="c2">Four</div>
+    </section>
+
+    <section class="s3">
+        <div class="c3">one</div>
+        <div class="c3">Two</div>
+        <div class="c3">Three</div>
+        <div class="c3">Four</div>
+    </section>
+
+</body>
+</html>
