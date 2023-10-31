@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <fieldset>
+        <legend>fill the form</legend>
+        <form method="post" autocomplete="off">
+            <!-- by default method="get"-->
+            <label for="fname">firstname</label>
+            <input type="text" placeholder="Enter First Name" id="fname" name="firstname <!-- name is used for backend database-->"> <br><br>
+    
+            <label for="lname">lastname</label>
+            <input type="text" placeholder=" Enter Last Name" id="lname" name="lastname"><br><br>
+    
+            <label for="email">Email</label>
+            <input type="email" placeholder=" Enter email id" id="email" name="email"><br><br>
+    
+            <label for="passwd">Password</label>
+            <input type="password" placeholder=" Enter password" id="passwd" name="passwd"><br><br>
+            <!-- above one are string data-->
+    
+            <b>Gender: </b>
+            <input type="radio" name="gen">
+            <label for="">Male</label>
+    
+            <input type="radio" name="gen">
+            <label for="">Female</label> <br><br>
+            <!--In both male and female for one option selection name should be same like gen or cc or any other because above are not string data they go to arrays-->
+    
+            <b>Skills: </b>
+            <label for="">Java</label>
+            <input type="checkbox" name="J">
+            <label for="">Python</label>
+            <input type="checkbox" name="P">
+            <label for="">Javascript</label>
+            <input type="checkbox" name="Js">
+            <label for="">C</label>
+            <input type="checkbox" name="C"> <br><br>
+    
+            <label for="">Resume</label>
+            <input type="file"> <br><br>
+    
+            <input type="submit">
+        </form>
+    </fieldset>
+
+
+    <fieldset>
+        <legend>Login</legend>
+        <form action="./welcome.html" method="post"><!-- action will link to backend file-->
+            <label for="">Email</label>
+            <input type="email" placeholder="enter email id" name="" id=""><br><br>
+    
+            <label for="">password</label>
+            <input type="password" placeholder="enter your password" name="" id=""><br><br>
+            
+            <input type="submit" value="Login">
+    
+        </form>
+    </fieldset>
+    
+    
+</body>
+</html>
